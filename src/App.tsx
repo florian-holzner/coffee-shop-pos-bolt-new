@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { menuItems } from './data/menu.ts';
-import { OrderItem } from './types.ts';
+import { menuItems } from './data/menu';
+import { OrderItem } from './types';
 
 function App() {
   const [orderItems, setOrderItems] = useState<OrderItem[]>([]);
