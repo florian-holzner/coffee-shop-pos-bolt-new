@@ -1,1 +1,3 @@
-/* Empty file to remove all styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
